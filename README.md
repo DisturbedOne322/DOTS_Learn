@@ -13,7 +13,5 @@ Target seeking is done as follows:
 The project has solutions using regular MonoBehavior classes and ECS. Both solution use the same optimization techniques and Jobs, the difference is only in mono vs ecs.
 
 The performance difference is as follow:
-<H2>ECS</H2>
 ![Alt text](Images/ecs.png?raw=true "Title")
-<H2>MONO</H2>
 ![Alt text](Images/mono.png?raw=true "Title")
