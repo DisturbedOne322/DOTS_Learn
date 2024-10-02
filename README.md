@@ -19,3 +19,7 @@ ECS:
 
 MONO:
 ![Alt text](Images/mono.png?raw=true "Title")
+
+Measuring the time before and after some methods calls, it appears the bottleneck for performance in mono is:
+1. Copying the positions into native arrays
+2. Iterating over the transforms and changing position
