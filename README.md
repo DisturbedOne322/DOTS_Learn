@@ -14,7 +14,7 @@ The project has solutions using regular MonoBehavior classes and ECS. Both solut
 
 The performance difference is as follow:
 <H2>ECS</H2>
-![ecs](https://github.com/user-attachments/assets/61c88369-7480-44b1-bc29-a9234dfaeaf8)
+![ecs](Images/ecs.png)
 
 <H2>MONO</H2>
-![mono](https://github.com/user-attachments/assets/32068107-9a8a-4ac3-ae23-b14e9582ec75)
+![mono](Images/mono.png)

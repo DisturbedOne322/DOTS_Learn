@@ -7,6 +7,6 @@ public class SeekerMono : MonoBehaviour
     public Vector3 Direction;
     public void Move(float dT)
     {
-        //transform.Translate(Direction * dT);
+        transform.Translate(Direction * dT);
     }
 }
