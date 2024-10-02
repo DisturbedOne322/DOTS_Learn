@@ -104,6 +104,7 @@ public partial struct FindClosestSystem : ISystem, ISystemStartStop
     public void OnDestroy(ref SystemState state)
     {
         _closestNativeArray.Dispose();
+        _seekersTransformNativeArray.Dispose();
         _targetTransformNativeArray.Dispose();
     }
 
