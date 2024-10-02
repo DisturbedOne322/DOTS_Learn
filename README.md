@@ -14,6 +14,6 @@ The project has solutions using regular MonoBehavior classes and ECS. Both solut
 
 The performance difference is as follow:
 <H2>ECS</H2>
-![ecs](Images/ecs.png?raw=true "Title")
+![Alt text](Images/ecs.png?raw=true "Title")
 <H2>MONO</H2>
-![mono](Images/mono.png?raw=true "Title")
+![Alt text](Images/mono.png?raw=true "Title")
