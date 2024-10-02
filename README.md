@@ -13,8 +13,13 @@ Target seeking is done as follows:
 The project has solutions using regular MonoBehavior classes and ECS. Both solution use the same optimization techniques and Jobs, the difference is only in mono vs ecs.
 
 The performance difference is as follow:
-<H2>ECS</H2>
-![ecs](Images/ecs.png)
 
-<H2>MONO</H2>
-![mono](Images/mono.png)
+ECS:
+![Alt text](Images/ecs.png?raw=true "Title")
+
+MONO:
+![Alt text](Images/mono.png?raw=true "Title")
+
+Measuring the time before and after some methods calls, it appears the bottleneck for performance in mono is:
+1. Copying the positions into native arrays
+2. Iterating over the transforms and changing position
